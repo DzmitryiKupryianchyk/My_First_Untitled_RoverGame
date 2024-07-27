@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ShellBehaviour : MonoBehaviour
 {
+    int damageRate;
     public float shellSpeed;
     public ParticleSystem ShellCollision;
     public ParticleSystem ShellHitGround;
@@ -60,17 +61,19 @@ public class ShellBehaviour : MonoBehaviour
             Instantiate(ShellCollision, transform.position, Quaternion.identity);
         }
 
+        if (collision.gameObject.GetComponent<HealthManager>() != null) 
+        {
+            collision.gameObject.GetComponent<HealthManager>().TakeDamage(damageRate); 
+        }
+
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         ShellPool.Instance.ReturnBullet(type, gameObject);
         
     }
-    private void OnCollisionStay(Collision collision)
+    public void SetDamageRate(int damageRate) 
     {
-       
-    }
-    private void OnCollisionExit(Collision collision)
-    {
+        this.damageRate = damageRate;
     }
     
     private void DestroyAnyway()

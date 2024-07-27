@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TankAttack : MonoBehaviour
 {
+    public int damageRate;
     Rigidbody shell;
     public Transform clip;
     private GameObject target;
@@ -16,7 +17,7 @@ public class TankAttack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        aimingOffset = new Vector3(0, 0.15f, 0);
+        aimingOffset = new Vector3(0, 0.1f, 0);
         time = frequency;
     }
 
@@ -36,40 +37,12 @@ public class TankAttack : MonoBehaviour
     }
     void AttackTarget()
     {
-        //if (target != null )
-        //{
-        //    Debug.Log("Pew");
-        //    currentShell = ShellPool.Instance.GetBullet(shellName);
-        //    currentShell.transform.position = clip.transform.position;
-        //    shell = currentShell.GetComponent<Rigidbody>();
-        //    Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
-        //    shell.AddForce(direction * shootForce, ForceMode.Impulse);
-        //}
-        //if (target != null)
-        //{
-        //    Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
-        //    float angle = Vector3.Angle(clip.forward, direction);
-
-        //    if (angle < 5.0f)
-        //    {
-        //        Debug.Log("Pew");
-        //        currentShell = ShellPool.Instance.GetBullet(shellName);
-        //        currentShell.transform.position = clip.transform.position;
-        //        shell = currentShell.GetComponent<Rigidbody>();
-        //        shell.AddForce(direction * shootForce, ForceMode.Impulse);
-        //    }
-        //    else
-        //    {
-        //        Debug.Log("Turret is not in position");
-        //    }
-        //}
         Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
         float angle = Vector3.Angle(clip.forward, direction);
 
         if (angle < 5.0f)
         {
-            Debug.Log("Pew");
-            currentShell = ShellPool.Instance.GetBullet(shellName);
+            currentShell = ShellPool.Instance.GetBullet(shellName, damageRate);
             currentShell.transform.position = clip.transform.position;
             shell = currentShell.GetComponent<Rigidbody>();
             shell.AddForce(direction * shootForce, ForceMode.Impulse);

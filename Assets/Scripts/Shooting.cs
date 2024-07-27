@@ -10,13 +10,14 @@ public class Shooting : MonoBehaviour
     private GameObject currentShell;
     public float frequency;
     public float shootForce;
+    public int damageRate;
     private float time;
     public string shellName = "bullet";
     Vector3 aimingOffset;
     // Start is called before the first frame update
     void Start()
     {
-        aimingOffset = new Vector3(0,0.15f,0);
+        aimingOffset = new Vector3(0,0.1f,0);
         time = frequency;
     }
 
@@ -38,8 +39,7 @@ public class Shooting : MonoBehaviour
     {
         if (target != null)
         {
-            Debug.Log("Pew");
-            currentShell = ShellPool.Instance.GetBullet(shellName);
+            currentShell = ShellPool.Instance.GetBullet(shellName, damageRate);
             currentShell.transform.position = clip.transform.position;
             shell = currentShell.GetComponent<Rigidbody>();
             Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;

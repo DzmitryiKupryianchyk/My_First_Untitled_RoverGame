@@ -10,9 +10,7 @@ public class TurretController : MonoBehaviour
     public float rotationSpeed;
     public Vector3 rotationDirection;
     Quaternion firstRotationPoint;
-    //Quaternion secondRotationPoint;
     float attackRadius;
-    //Vector3 aim;
     public LayerMask targetLayer;
     private GameObject target;
     // Start is called before the first frame update
@@ -46,9 +44,7 @@ public class TurretController : MonoBehaviour
             {
                 nearestDistance = distance;
                 nearestTarget = col.gameObject;
-                //aim = nearestTarget.transform.position;
             }
-            //else { target = null; }
         }
 
         target = nearestTarget;
@@ -61,7 +57,6 @@ public class TurretController : MonoBehaviour
         }
         else
         {
-            Debug.Log("There is no target!");
             return null;
         }
     }

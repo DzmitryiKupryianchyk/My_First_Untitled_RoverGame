@@ -14,15 +14,5 @@ public class CreateShell : MonoBehaviour
             ShellPool.Instance.CreateBulletPool(shellsNames[i], shellsPrefabs[i], quantityOfEach[i]);
         } 
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }

@@ -24,11 +24,12 @@ public class ShellPool : ShellSingleton<ShellPool>
         }
     }
 
-    public GameObject GetBullet(string bulletType)
+    public GameObject GetBullet(string bulletType, int damageRate)
     {
         if (bulletPoolDictionary.ContainsKey(bulletType) && bulletPoolDictionary[bulletType].Count > 0)
         {
             GameObject bullet = bulletPoolDictionary[bulletType].Dequeue();
+            bullet.GetComponent<ShellBehaviour>().SetDamageRate(damageRate);
             bullet.SetActive(true);
             return bullet;
         }

@@ -171,6 +171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellSpeed: 65
   ShellCollision: {fileID: 6011760619595803635, guid: 926384dbfb0a80b4ea1024ebe7b33c1b, type: 3}
+  ShellHitGround: {fileID: 0}
   isExplosive: 0
   explosionForce: 0
   explosionRadius: 0

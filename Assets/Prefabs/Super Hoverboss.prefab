@@ -4903,7 +4903,6 @@ GameObject:
   - component: {fileID: 82428518445736458}
   - component: {fileID: 136123838071042730}
   - component: {fileID: 430840101328051349}
-  - component: {fileID: 7205195961520221828}
   m_Layer: 11
   m_Name: Super Hoverboss
   m_TagString: Untagged
@@ -5110,28 +5109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e691eef79ccc2a344ad8c1cead866ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frequency: 6
   patrolRadius: 10
---- !u!65 &7205195961520221828
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300474929184216}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  towerControl: {fileID: 1144441345680599114}
 --- !u!1 &1341545582985454
 GameObject:
   m_ObjectHideFlags: 0
@@ -44597,7 +44577,7 @@ Transform:
   m_GameObject: {fileID: 2171253220053135738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.49, z: 3.78}
+  m_LocalPosition: {x: 0, y: -0.49, z: 3.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
