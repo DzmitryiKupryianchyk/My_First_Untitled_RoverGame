@@ -3430,6 +3430,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7636157769226394690, guid: 6e3f3f164db5f40498561f02a7bd0e2c, type: 3}
+      propertyPath: emitterVelocityMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41736,7 +41740,7 @@ MonoBehaviour:
   forsageSpeed: 6
   moveBackwardsSpeed: 1
   interactArea: 5
-  turnSpeed: 5
+  turnSpeed: 3
   headLight: {fileID: 1495536479}
   allAvailableLayer:
     serializedVersion: 2
