@@ -8,6 +8,7 @@ public class PlayerControll : MonoBehaviour
     public float forsageSpeed;
     public float moveBackwardsSpeed;
     public float interactArea;
+    public float turnSpeed;
     float yRotation;
     float gravity = -9.81f;
     bool isForsageMode;
@@ -111,7 +112,7 @@ public class PlayerControll : MonoBehaviour
         }
         else
         {
-            CharacterController.transform.Rotate(0, direction.x, 0);
+            CharacterController.transform.Rotate(0, direction.x * turnSpeed, 0);
         }
     }
 
