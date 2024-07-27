@@ -59,6 +59,7 @@ public class ShellBehaviour : MonoBehaviour
         {
             Instantiate(ShellCollision, transform.position, Quaternion.identity);
         }
+
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         ShellPool.Instance.ReturnBullet(type, gameObject);

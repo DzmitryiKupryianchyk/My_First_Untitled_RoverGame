@@ -45,23 +45,38 @@ public class TankAttack : MonoBehaviour
         //    Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
         //    shell.AddForce(direction * shootForce, ForceMode.Impulse);
         //}
-        if (target != null)
-        {
-            Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
-            float angle = Vector3.Angle(clip.forward, direction);
+        //if (target != null)
+        //{
+        //    Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
+        //    float angle = Vector3.Angle(clip.forward, direction);
 
-            if (angle < 5.0f)
-            {
-                Debug.Log("Pew");
-                currentShell = ShellPool.Instance.GetBullet(shellName);
-                currentShell.transform.position = clip.transform.position;
-                shell = currentShell.GetComponent<Rigidbody>();
-                shell.AddForce(direction * shootForce, ForceMode.Impulse);
-            }
-            else
-            {
-                Debug.Log("Turret is not in position");
-            }
+        //    if (angle < 5.0f)
+        //    {
+        //        Debug.Log("Pew");
+        //        currentShell = ShellPool.Instance.GetBullet(shellName);
+        //        currentShell.transform.position = clip.transform.position;
+        //        shell = currentShell.GetComponent<Rigidbody>();
+        //        shell.AddForce(direction * shootForce, ForceMode.Impulse);
+        //    }
+        //    else
+        //    {
+        //        Debug.Log("Turret is not in position");
+        //    }
+        //}
+        Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
+        float angle = Vector3.Angle(clip.forward, direction);
+
+        if (angle < 5.0f)
+        {
+            Debug.Log("Pew");
+            currentShell = ShellPool.Instance.GetBullet(shellName);
+            currentShell.transform.position = clip.transform.position;
+            shell = currentShell.GetComponent<Rigidbody>();
+            shell.AddForce(direction * shootForce, ForceMode.Impulse);
+        }
+        else
+        {
+            Debug.Log("Turret is not in position");
         }
     }
 
