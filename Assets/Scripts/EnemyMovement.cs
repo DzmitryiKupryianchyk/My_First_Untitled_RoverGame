@@ -79,12 +79,12 @@ public class EnemyMovement : MonoBehaviour
     }
     void SetDestination() 
     {
-        Vector3 point = target.transform.position;
+        randomPoint = target.transform.position;
         if (Vector3.Distance(transform.position, target.transform.position) < 5.0f) 
         {
             randomPoint = transform.position;
         }
-        agent.SetDestination(point);
+        agent.SetDestination(randomPoint);
     }
 
     void RandomPatrol()

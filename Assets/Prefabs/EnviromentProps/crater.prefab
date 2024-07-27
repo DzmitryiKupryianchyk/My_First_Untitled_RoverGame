@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5470123299475754402}
   - component: {fileID: 7785949017791789416}
   - component: {fileID: 8920692706047780322}
+  - component: {fileID: 6858687878509097535}
   m_Layer: 0
   m_Name: crater
   m_TagString: Untagged
@@ -107,3 +108,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6243662610250248269, guid: a1856d80ff6656f488c9ac3a4446abc7, type: 3}
+--- !u!208 &6858687878509097535
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8578727344911964349}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.35700002, y: 0.059000004, z: 0.41300002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.059000004, z: 0}
+  m_TimeToStationary: 0.5

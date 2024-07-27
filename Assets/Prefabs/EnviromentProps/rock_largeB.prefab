@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1774212562755323223}
   - component: {fileID: 4574447368262513053}
   - component: {fileID: 2934699909290618139}
+  - component: {fileID: -1080198660200460608}
   m_Layer: 0
   m_Name: rock_largeB
   m_TagString: Untagged
@@ -107,3 +108,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 769399897033540445, guid: 2c7e42c6779cc924788ac17ed960c54b, type: 3}
+--- !u!208 &-1080198660200460608
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2628782584480288840}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.46400002, y: 0.25, z: 0.47000003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.006, y: 0.25, z: -0.010000001}
+  m_TimeToStationary: 0.5

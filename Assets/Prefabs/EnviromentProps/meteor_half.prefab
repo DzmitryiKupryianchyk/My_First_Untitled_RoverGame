@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2381934934458884524}
   - component: {fileID: 498389353724319078}
   - component: {fileID: 1237143939974269420}
+  - component: {fileID: 1913347315930297352}
   m_Layer: 0
   m_Name: meteor_half
   m_TagString: Untagged
@@ -106,3 +107,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6794962328041094343, guid: 83a0ed7c66ad4034daf88ac414a2e389, type: 3}
+--- !u!208 &1913347315930297352
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155638769535726771}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.43300003, y: 0.18400002, z: 0.37500003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.18400002, z: 0}
+  m_TimeToStationary: 0.5

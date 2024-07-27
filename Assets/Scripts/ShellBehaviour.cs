@@ -78,6 +78,7 @@ public class ShellBehaviour : MonoBehaviour
         if (gameObject != null && Vector3.Distance(firstPosition, gameObject.transform.position) > maxDistance)
         {
             rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
             ShellPool.Instance.ReturnBullet(type, gameObject);
         }
     }
