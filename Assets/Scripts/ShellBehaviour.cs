@@ -26,7 +26,7 @@ public class ShellBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DestroyAnyway();
+        //DestroyAnyway();
     }
     public void SetType(string type) 
     {

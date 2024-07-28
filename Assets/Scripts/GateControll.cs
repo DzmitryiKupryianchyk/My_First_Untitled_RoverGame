@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GateControll : MonoBehaviour
+public class GateControll : MonoBehaviour, IResponsible
 {
     bool isOpened;
     bool doIteration = false;
@@ -30,7 +30,21 @@ public class GateControll : MonoBehaviour
             }
         }
     }
-    public void ChangeState(bool isGreen) 
+    //public void ChangeState(bool isGreen) 
+    //{
+    //    if (isGreen != isOpened)
+    //    {
+    //        destination = isGreen ? openPos : closePos;
+    //        doIteration = true;
+    //        isOpened = isGreen;
+    //    }
+    //}
+    void MoveGate() 
+    {
+        transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * speed);
+    }
+
+    public void Respond(bool isGreen)
     {
         if (isGreen != isOpened)
         {
@@ -38,9 +52,5 @@ public class GateControll : MonoBehaviour
             doIteration = true;
             isOpened = isGreen;
         }
-    }
-    void MoveGate() 
-    {
-        transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * speed);
     }
 }

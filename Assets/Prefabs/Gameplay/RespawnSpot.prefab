@@ -803,6 +803,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f967411cc05eb19458aec14546d630e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9223024647068857944}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f967411cc05eb19458aec14546d630e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6315913755142316499}
   m_SourcePrefab: {fileID: 100100000, guid: f967411cc05eb19458aec14546d630e0, type: 3}
 --- !u!4 &7251281927006804010 stripped
 Transform:
@@ -852,3 +855,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.74999994, y: 0.59999996, z: 0.49999997}
   m_Center: {x: 0, y: 0.29999998, z: 0}
+--- !u!114 &6315913755142316499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8064375537159832208}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba71dc1a157c93d4eb687ddc95d39500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redColor: {fileID: 2100000, guid: c2beff9cd588a524695cf444ca487be4, type: 2}
+  greenColor: {fileID: 2100000, guid: 8bee39a72bcea094fb23a6ec2de1de94, type: 2}
+  isStartGreen: 0
+  gateToControll: {fileID: 0}
+  responsibleElement: {fileID: 5942818625983610491}
+  buttonColor: {fileID: 8577515447688596047}
