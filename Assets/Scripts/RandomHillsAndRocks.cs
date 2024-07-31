@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class RandomHillsAndRocks : MonoBehaviour
 {
+    public float minScale;
+    public float maxScale;
     [SerializeField] GameObject[] prefabs;
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform.position, Quaternion.identity);
+        //Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform.position, Quaternion.identity);
+        GameObject prefab = prefabs[Random.Range(0, prefabs.Length)];
+        GameObject obj = Instantiate(prefab, transform.position, Quaternion.identity);
+        float randomScale = Random.Range(minScale, maxScale);
+        obj.transform.localScale = new Vector3(randomScale, randomScale, randomScale);
         Destroy(gameObject);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
