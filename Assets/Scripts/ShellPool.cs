@@ -43,7 +43,6 @@ public class ShellPool : ShellSingleton<ShellPool>
     public void ReturnBullet(string bulletType, GameObject bullet)
     {
         bullet.SetActive(false);
-        //bullet.transform.position = transform.position;
         bulletPoolDictionary[bulletType].Enqueue(bullet);
     }
 }
