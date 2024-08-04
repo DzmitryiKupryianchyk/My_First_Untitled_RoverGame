@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2583771525004557300}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pole (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2446174617422053017}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pole (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3490474913133022350}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8760746706931804583}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FuelStation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2562994163255737669}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pole (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -356,6 +360,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -431,6 +439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -504,6 +516,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -579,6 +595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -653,6 +673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -714,6 +738,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02fa3eb5eec6513498f80a62e8795b61, type: 3}
       propertyPath: m_Name
       value: corridor_windowClosed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02fa3eb5eec6513498f80a62e8795b61, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -789,6 +817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: external tank (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4523392337713741458, guid: 2d4e6a912d4629a4fb7d4e2b42d0437b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -851,6 +883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: corridor_windowClosed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02fa3eb5eec6513498f80a62e8795b61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -883,31 +919,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.42826366
+      value: 0.52861375
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.8923048
+      value: -0.7582036
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.06256995
+      value: -0.14330338
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.12832566
+      value: -0.35377812
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -48.437
+      value: -64.554
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -154.788
+      value: -243.634
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 160.489
+      value: 201.392
       objectReference: {fileID: 0}
     - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Intensity
@@ -921,13 +957,21 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Name
       value: Spot Light
       objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -990,6 +1034,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02fa3eb5eec6513498f80a62e8795b61, type: 3}
       propertyPath: m_Name
       value: corridor_windowClosed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02fa3eb5eec6513498f80a62e8795b61, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1065,6 +1113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: external tank (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4523392337713741458, guid: 2d4e6a912d4629a4fb7d4e2b42d0437b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1138,6 +1190,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1213,6 +1269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1286,6 +1346,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1361,6 +1425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1434,6 +1502,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1509,6 +1581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1582,6 +1658,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1657,6 +1737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: external tank
       objectReference: {fileID: 0}
+    - target: {fileID: 4523392337713741458, guid: 2d4e6a912d4629a4fb7d4e2b42d0437b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1730,6 +1814,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1805,6 +1893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1879,6 +1971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1949,9 +2045,17 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Name
       value: Spot Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_IsActive
@@ -2022,6 +2126,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e60be360c9ae93e43938f4c27e510246, type: 3}
       propertyPath: m_Name
       value: structure_closed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e60be360c9ae93e43938f4c27e510246, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2097,6 +2205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2170,6 +2282,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2245,6 +2361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2318,6 +2438,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2393,6 +2517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2454,6 +2582,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 04ea8ec0b6daf584c8d407d25b8ddf4c, type: 3}
       propertyPath: m_Name
       value: corridor_cornerRoundWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 04ea8ec0b6daf584c8d407d25b8ddf4c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2529,6 +2661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2602,6 +2738,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2677,6 +2817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2709,31 +2853,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.42826366
+      value: 0.7751098
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.8923048
+      value: -0.6177767
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.06256995
+      value: 0.12364363
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.12832566
+      value: 0.04763342
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -48.437
+      value: -75.805
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -154.788
+      value: 32.796
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 160.489
+      value: -18.776
       objectReference: {fileID: 0}
     - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Enabled
@@ -2751,13 +2895,21 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Name
       value: Spot Light
       objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2820,6 +2972,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 396b39e3615adf0429ea616fe5bb5a35, type: 3}
       propertyPath: m_Name
       value: corridor_split
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 396b39e3615adf0429ea616fe5bb5a35, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2895,6 +3051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2916,6 +3076,22 @@ PrefabInstance:
     - target: {fileID: 1005435343658321536, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
       propertyPath: m_Name
       value: SwitchPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005435343658321536, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018721990632175885, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512248738636732383, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092264876427133332, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3233076760518218951, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2956,6 +3132,38 @@ PrefabInstance:
     - target: {fileID: 3233076760518218951, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596372451466574931, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617298476269232150, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5260079370992232108, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5536708310645888520, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7078099149612481829, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307436401411310662, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418470817047662279, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222383330208555247, guid: 238ba08979280014cb4fb1acd547070c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3018,6 +3226,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1b7ce6b71164634fa91b6e5ef012292, type: 3}
       propertyPath: m_Name
       value: satelliteDish
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1b7ce6b71164634fa91b6e5ef012292, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3093,6 +3305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3166,6 +3382,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3241,6 +3461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3273,31 +3497,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.42826366
+      value: 0.6585057
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.8923048
+      value: -0.7335907
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.06256995
+      value: -0.0052368506
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.12832566
+      value: 0.16789143
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -48.437
+      value: -74.663
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -154.788
+      value: -106.782
       objectReference: {fileID: 0}
     - target: {fileID: 4329297450750738438, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 160.489
+      value: 120.111
       objectReference: {fileID: 0}
     - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Intensity
@@ -3311,13 +3535,21 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Name
       value: Spot Light
       objectReference: {fileID: 0}
     - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958991066350996309, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3393,6 +3625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3466,6 +3702,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3541,6 +3781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3614,6 +3858,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3689,6 +3937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3762,6 +4014,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3837,6 +4093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3898,6 +4158,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 94ef1ea01b7ba8c4d951488b96b9b584, type: 3}
       propertyPath: m_Name
       value: platform_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94ef1ea01b7ba8c4d951488b96b9b584, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3973,6 +4237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: external tank (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4523392337713741458, guid: 2d4e6a912d4629a4fb7d4e2b42d0437b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4047,6 +4315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4108,6 +4380,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 05d7bc63eb6f8764ab89e3351bc547f5, type: 3}
       propertyPath: m_Name
       value: corridor_end
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 05d7bc63eb6f8764ab89e3351bc547f5, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4179,6 +4455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_center
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2eb17645b5da55848b347871ebe02382, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4237,9 +4517,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7631519033783230797, guid: bb07351694e6ef84fb9d72598902bc31, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bb07351694e6ef84fb9d72598902bc31, type: 3}
       propertyPath: m_Name
       value: hangar_smallA
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bb07351694e6ef84fb9d72598902bc31, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629838243058712215, guid: bb07351694e6ef84fb9d72598902bc31, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4315,6 +4607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4388,6 +4684,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4463,6 +4763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4536,6 +4840,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
       propertyPath: m_Name
       value: monorail_trackSupport (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

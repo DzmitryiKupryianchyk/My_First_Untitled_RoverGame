@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5778176637255218695}
   - component: {fileID: 8577515447688596047}
   - component: {fileID: 8299706846097053131}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: display
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5403303342974024815}
   - component: {fileID: 9076039085494381446}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LightProbe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3095045335743159869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 3945663983549248699}
   - component: {fileID: 8620222667060880337}
   - component: {fileID: 4185341315394096789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6932177878952781753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ThisVerySpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3555631577876219766}
   - component: {fileID: 7164657854597398153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RespawnSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,6 +420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_large
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94ef1ea01b7ba8c4d951488b96b9b584, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -487,9 +491,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6920690623926577443, guid: b5999ebd6f72d6d43851e53999c4a75a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b5999ebd6f72d6d43851e53999c4a75a, type: 3}
       propertyPath: m_Name
       value: machine_generator
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b5999ebd6f72d6d43851e53999c4a75a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -567,7 +579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7174329859367569029, guid: 69f2a3e896061d64e80cc9f5d1d50a84, type: 3}
       propertyPath: m_RenderMode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7174329859367569029, guid: 69f2a3e896061d64e80cc9f5d1d50a84, type: 3}
       propertyPath: m_Lightmapping
@@ -577,9 +589,17 @@ PrefabInstance:
       propertyPath: m_InnerSpotAngle
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7174329859367569029, guid: 69f2a3e896061d64e80cc9f5d1d50a84, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 7856277114734595026, guid: 69f2a3e896061d64e80cc9f5d1d50a84, type: 3}
       propertyPath: m_Name
       value: PointLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856277114734595026, guid: 69f2a3e896061d64e80cc9f5d1d50a84, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -652,6 +672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -721,6 +745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: monorail_trackSupport (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4efa867a081cc7e47a31c94fcd99895e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -785,6 +813,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f967411cc05eb19458aec14546d630e0, type: 3}
       propertyPath: m_Name
       value: machine_wireless
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f967411cc05eb19458aec14546d630e0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f967411cc05eb19458aec14546d630e0, type: 3}
       propertyPath: m_TagString
@@ -870,6 +902,5 @@ MonoBehaviour:
   redColor: {fileID: 2100000, guid: c2beff9cd588a524695cf444ca487be4, type: 2}
   greenColor: {fileID: 2100000, guid: 8bee39a72bcea094fb23a6ec2de1de94, type: 2}
   isStartGreen: 0
-  gateToControll: {fileID: 0}
   responsibleElement: {fileID: 5942818625983610491}
   buttonColor: {fileID: 8577515447688596047}
