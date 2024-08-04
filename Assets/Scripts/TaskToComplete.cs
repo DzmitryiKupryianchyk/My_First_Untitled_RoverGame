@@ -9,7 +9,6 @@ public class TaskToComplete : MonoBehaviour, IResponsible
     void Start()
     {
         isCompleted = false;
-        //SetLight();
     }
     public void Respond(bool state)
     {
@@ -17,7 +16,6 @@ public class TaskToComplete : MonoBehaviour, IResponsible
         {
             isCompleted = state;
             SetLight();
-            Debug.Log("Task Number " + isCompleted);
             TaskControlManager.Instance.CheckStatus();
         }
         else { return; };

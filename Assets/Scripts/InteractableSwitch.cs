@@ -8,19 +8,12 @@ public class InteractableSwitch : MonoBehaviour, IInterractable
     [SerializeField] Material redColor;
     [SerializeField] Material greenColor;
     [SerializeField] bool isStartGreen = false;
-    //[SerializeField] GateControll gateToControll;
     [SerializeField] GameObject responsibleElement;
     public MeshRenderer buttonColor;
     // Start is called before the first frame update
     void Start()
     {
         SetState(isStartGreen);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     public void SetState(bool State) 
     { 
@@ -33,7 +26,6 @@ public class InteractableSwitch : MonoBehaviour, IInterractable
         { 
             buttonColor.material = redColor;
         }
-        //gateToControll.ChangeState(IsGreen);
         responsibleElement.GetComponent<IResponsible>().Respond(IsGreen);
     }
     public void Operate() 

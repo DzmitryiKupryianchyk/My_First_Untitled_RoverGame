@@ -30,15 +30,6 @@ public class GateControll : MonoBehaviour, IResponsible
             }
         }
     }
-    //public void ChangeState(bool isGreen) 
-    //{
-    //    if (isGreen != isOpened)
-    //    {
-    //        destination = isGreen ? openPos : closePos;
-    //        doIteration = true;
-    //        isOpened = isGreen;
-    //    }
-    //}
     void MoveGate() 
     {
         transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * speed);

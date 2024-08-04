@@ -6,9 +6,6 @@ public class LightProbeRotation : MonoBehaviour
 {
     public Vector3 rotationDirection = Vector3.up;
     public float rotationSpeed;
-    void Start()
-    {
-    }
     void Update()
     {
         transform.Rotate(rotationDirection * rotationSpeed * Time.deltaTime);

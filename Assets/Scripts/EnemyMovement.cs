@@ -6,40 +6,7 @@ using UnityEngine.InputSystem.HID;
 
 public class EnemyMovement : MonoBehaviour
 {
-    //public Transform[] waypoints;
-    //public float patrolSpeed = 3f;
-    //private NavMeshAgent navMeshAgent;
-    //private int currentWaypointIndex = 0;
-
-    //void Start()
-    //{
-    //    navMeshAgent = GetComponent<NavMeshAgent>();
-    //    navMeshAgent.autoBraking = false;
-
-    //    if (waypoints.Length > 0)
-    //    {
-    //        SetDestination();
-    //    }
-    //}
-
-    //void Update()
-    //{
-    //    if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f)
-    //    {
-    //        SetDestination();
-    //    }
-    //}
-
-    //void SetDestination()
-    //{
-    //    if (waypoints.Length == 0)
-    //    {
-    //        return;
-    //    }
-
-    //    navMeshAgent.destination = waypoints[currentWaypointIndex].position;
-    //    currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
-    //}
+    
     public float frequency;
     private float time;
     public float patrolRadius = 10f;

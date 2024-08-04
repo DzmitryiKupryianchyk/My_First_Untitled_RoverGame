@@ -7,7 +7,7 @@ public class SpaceShuttleBehavior : MonoBehaviour
     bool readyToLaunch;
     float verticalSpeed = 10;
     float windupVerticalSpeed = 0;
-    float gravityTurnSpeed = 0.4f;
+    float gravityTurnSpeed = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class SpaceShuttleBehavior : MonoBehaviour
 
             transform.Translate(Vector3.forward * windupVerticalSpeed * Time.deltaTime);
 
-            transform.Rotate(Vector3.down * gravityTurnSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.right * gravityTurnSpeed * Time.deltaTime);
         }
     }
     public void TakeOff()

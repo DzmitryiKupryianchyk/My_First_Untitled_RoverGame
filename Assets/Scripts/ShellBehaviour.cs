@@ -22,12 +22,6 @@ public class ShellBehaviour : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         firstPosition = gameObject.transform.position;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //DestroyAnyway();
-    }
     public void SetType(string type) 
     {
         this.type = type;

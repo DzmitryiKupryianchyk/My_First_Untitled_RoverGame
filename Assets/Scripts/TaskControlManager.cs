@@ -14,7 +14,6 @@ public class TaskControlManager : ShellSingleton<TaskControlManager>
     void Start()
     {
         isReadyToLaunch = false;
-        Debug.Log("numOfTasks " + tasks.Length);
     }
 
     public void CheckStatus() 
@@ -31,7 +30,6 @@ public class TaskControlManager : ShellSingleton<TaskControlManager>
                 isReadyToLaunch = true;
             }
         }
-        Debug.Log("isReadyToLaunch " + isReadyToLaunch);
     }
 
     public bool IsReadyToLaunch() 
