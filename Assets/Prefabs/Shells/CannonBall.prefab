@@ -187,6 +187,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trail
       objectReference: {fileID: 0}
+    - target: {fileID: 2535775637963445060, guid: 72c179d5ebab67745877a4f67b66d5ca, type: 3}
+      propertyPath: m_Time
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535775637963445060, guid: 72c179d5ebab67745877a4f67b66d5ca, type: 3}
+      propertyPath: m_Autodestruct
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535775637963445060, guid: 72c179d5ebab67745877a4f67b66d5ca, type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535775637963445060, guid: 72c179d5ebab67745877a4f67b66d5ca, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 0.056548312
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535775637963445060, guid: 72c179d5ebab67745877a4f67b66d5ca, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0.058431126
+      objectReference: {fileID: 0}
     - target: {fileID: 3521258999159259786, guid: 72c179d5ebab67745877a4f67b66d5ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -56,7 +56,6 @@ public class TankTowerControll : MonoBehaviour
         }
         else
         {
-            Debug.Log("There is no target!");
             return null;
         }
     }

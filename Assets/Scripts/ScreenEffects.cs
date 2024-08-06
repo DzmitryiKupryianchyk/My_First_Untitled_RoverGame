@@ -53,6 +53,6 @@ public class ScreenEffects : MonoBehaviour
    
     public void SlowHide()
     {
-        StartCoroutine(LerpImage(Color.black, 0.02f));
+        StartCoroutine(LerpImage(Color.black, 0.08f));
     }
 }
