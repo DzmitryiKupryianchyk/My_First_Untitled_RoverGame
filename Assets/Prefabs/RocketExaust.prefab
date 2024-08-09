@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4447911171487982861}
   - component: {fileID: 974346502012469532}
   - component: {fileID: 6373305049537880354}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RocketExaust
   m_TagString: Untagged
   m_Icon: {fileID: 0}

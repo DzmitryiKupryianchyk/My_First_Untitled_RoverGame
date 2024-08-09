@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2464609511106952440}
   - component: {fileID: 7427429110285157905}
   - component: {fileID: 8263343457757350473}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RocketFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}

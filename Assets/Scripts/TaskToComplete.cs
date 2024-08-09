@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TaskToComplete : MonoBehaviour, IResponsible
 {
+    public int priority;
     public Light probe;
     bool isCompleted;
     void Start()
@@ -35,5 +36,9 @@ public class TaskToComplete : MonoBehaviour, IResponsible
         {
             probe.color = Color.red;
         }
+    }
+    public int GetPriority() 
+    { 
+        return priority; 
     }
 }

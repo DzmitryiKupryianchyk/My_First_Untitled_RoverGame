@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6455015566797297175}
   - component: {fileID: 7174329859367569029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GreenPointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

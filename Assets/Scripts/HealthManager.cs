@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
@@ -12,7 +13,9 @@ public class HealthManager : MonoBehaviour
     private Vector3 respawnLocation;
     [SerializeField] GameObject explosionDirtFX;
     [SerializeField] ScreenEffects screenDimmer;
+    [SerializeField] Slider healthBar;
     CharacterController characterController;
+    
 
     public CharacterController CharacterController { get { return characterController = characterController ?? GetComponent<CharacterController>(); } }
 
@@ -27,6 +30,8 @@ public class HealthManager : MonoBehaviour
         {
             respawnLocation = transform.position;
         }
+        healthBar.maxValue = startHealth;
+        healthBar.value = health;
     }
     private void Update()
     {
@@ -43,6 +48,7 @@ public class HealthManager : MonoBehaviour
     void Heal() 
     {
         health += 1;
+        healthBar.value = health;
     }
     public void TakeDamage(int damageRate)
     {
@@ -52,6 +58,7 @@ public class HealthManager : MonoBehaviour
             health = 0;
             Die();
         }
+        healthBar.value = health;
     }
     public void Die()
     {
@@ -67,5 +74,6 @@ public class HealthManager : MonoBehaviour
         transform.position = respawnLocation;
         CharacterController.enabled = true;
         health = startHealth;
+        healthBar.value = health;
     }
 }

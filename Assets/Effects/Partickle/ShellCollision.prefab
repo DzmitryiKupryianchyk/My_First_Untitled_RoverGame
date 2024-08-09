@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1416339340832703618}
   - component: {fileID: 6011760619595803635}
   - component: {fileID: 2374256529924036532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShellCollision
   m_TagString: Untagged
   m_Icon: {fileID: 0}

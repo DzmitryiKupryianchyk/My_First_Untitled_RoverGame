@@ -14,11 +14,11 @@ TagManager:
   - UI
   - Ground
   - ArtSurface
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Light
+  - MiniPlayer
+  - MiniEnemy
+  - SolarPanel
   - 
   - 
   - 
