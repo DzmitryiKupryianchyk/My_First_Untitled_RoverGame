@@ -13,6 +13,8 @@ public class PlayerControll : MonoBehaviour
     float gravity = -9.81f;
     bool isForsageMode;
 
+    public GameObject pauseMenuUI;
+    private bool isPaused = false;
     public Light headLight;
     public LayerMask allAvailableLayer;
     private InputManager inputManager;
@@ -27,6 +29,7 @@ public class PlayerControll : MonoBehaviour
         inputManager.CharacterMap.Light.performed += Light_performed;
         inputManager.CharacterMap.View.performed += View_performed;
         inputManager.CharacterMap.Shoot.performed += Shoot_performed;
+        inputManager.CharacterMap.Pause.performed += Pause_performed;
         inputManager.Enable();
     }
 
@@ -38,11 +41,13 @@ public class PlayerControll : MonoBehaviour
         inputManager.CharacterMap.Light.performed -= Light_performed;
         inputManager.CharacterMap.View.performed -= View_performed;
         inputManager.CharacterMap.Shoot.performed -= Shoot_performed;
+        inputManager.CharacterMap.Pause.performed -= Pause_performed;
         inputManager.Disable();
     }
     // Start is called before the first frame update
     void Start()
     {
+        pauseMenuUI.SetActive(false);
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -90,6 +95,29 @@ public class PlayerControll : MonoBehaviour
                 col.GetComponent<IInterractable>().Interact();
             }
         }
+    }
+
+    private void Pause_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        if (isPaused)
+            Resume();
+        else
+            Pause();
+    }
+    public void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        Time.timeScale = 0f;
+        isPaused = true;
     }
 
     void Move(Vector2 direction) 

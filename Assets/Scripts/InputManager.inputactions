@@ -1,5 +1,5 @@
 {
-    "name": "InputController",
+    "name": "InputManager",
     "maps": [
         {
             "name": "CharacterMap",
@@ -54,6 +54,15 @@
                     "name": "Forsage",
                     "type": "Button",
                     "id": "0cb5b4e1-5208-423b-b27e-07641db2bd0d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "ca762e76-6acf-4d7a-ab34-95bfaca43661",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -223,6 +232,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Forsage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d467a56-d7c2-43e3-bfea-350ae102b996",
+                    "path": "<Keyboard>/#(P)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

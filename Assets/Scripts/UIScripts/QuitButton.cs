@@ -7,7 +7,7 @@ public class QuitButton : MonoBehaviour, IPointerClickHandler
 {
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Application.Quit()");
+        Debug.Log("Quit called!");
         Application.Quit();
     }
 }
