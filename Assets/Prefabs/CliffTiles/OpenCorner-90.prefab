@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7866571061174253685
 Transform:
@@ -112,6 +112,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5a633eb95640478499b6c96351d84219, type: 3}
       propertyPath: m_Name
       value: terrain_sideCorner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a633eb95640478499b6c96351d84219, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
