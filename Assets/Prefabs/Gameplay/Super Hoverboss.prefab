@@ -79,7 +79,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.6
-  m_Speed: 1.2
+  m_Speed: 2
   m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 360
@@ -90,7 +90,7 @@ NavMeshAgent:
   m_Height: 1
   m_BaseOffset: 0
   m_WalkableMask: 7
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 2
 --- !u!114 &430840101328051349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +170,6 @@ GameObject:
   - component: {fileID: 4509685366740576}
   - component: {fileID: 33195571523518794}
   - component: {fileID: 23900250089188070}
-  - component: {fileID: 95676344226146386}
   - component: {fileID: 1144441345680599114}
   - component: {fileID: 3423432951578998939}
   m_Layer: 8
@@ -247,27 +246,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &95676344226146386
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651413935612548}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: 617480999c0dc45179a0e237b678012d, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1144441345680599114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +261,7 @@ MonoBehaviour:
   detectionRadius: 20
   viewInDarkRadius: 6
   viewWithLightRadius: 10
-  rotationSpeed: 5
+  rotationSpeed: 7
   targetLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -299,9 +277,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749bd4740b9b6e44f8c96114fec2ce21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageRate: 20
+  damageRate: 50
   clip: {fileID: 9142175850788161631}
-  frequency: 1
+  frequency: 0.85
   shootForce: 25
   shellName: bullet
 --- !u!1 &1869909111343188

@@ -18,7 +18,6 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        
     }
 
     private void Update()

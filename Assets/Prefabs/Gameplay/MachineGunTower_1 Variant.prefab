@@ -367,7 +367,7 @@ MonoBehaviour:
   detectionRadius: 20
   viewInDarkRadius: 6
   viewWithLightRadius: 10
-  rotationSpeed: 5
+  rotationSpeed: 9
   rotationDirection: {x: 0, y: 250, z: 0}
   targetLayer:
     serializedVersion: 2
@@ -387,7 +387,7 @@ MonoBehaviour:
   clip: {fileID: 5700994704088868750}
   frequency: 0.4
   shootForce: 30
-  damageRate: 5
+  damageRate: 10
   shellName: bullet
 --- !u!4 &6095896580648505076 stripped
 Transform:
