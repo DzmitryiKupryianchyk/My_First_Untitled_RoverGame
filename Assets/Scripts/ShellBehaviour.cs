@@ -14,7 +14,7 @@ public class ShellBehaviour : MonoBehaviour
     public float explosionForce;
     public float explosionRadius;
     Vector3 firstPosition;
-    float maxDistance = 800.0f;
+    //float maxDistance = 800.0f;
     string type;
     // Start is called before the first frame update
     void Start()
@@ -70,13 +70,13 @@ public class ShellBehaviour : MonoBehaviour
         this.damageRate = damageRate;
     }
     
-    private void DestroyAnyway()
-    {
-        if (gameObject != null && Vector3.Distance(firstPosition, gameObject.transform.position) > maxDistance)
-        {
-            rb.velocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-            ShellPool.Instance.ReturnBullet(type, gameObject);
-        }
-    }
+    //private void DestroyAnyway()
+    //{
+    //    if (gameObject != null && Vector3.Distance(firstPosition, gameObject.transform.position) > maxDistance)
+    //    {
+    //        rb.velocity = Vector3.zero;
+    //        rb.angularVelocity = Vector3.zero;
+    //        ShellPool.Instance.ReturnBullet(type, gameObject);
+    //    }
+    //}
 }

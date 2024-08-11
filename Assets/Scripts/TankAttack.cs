@@ -47,10 +47,6 @@ public class TankAttack : MonoBehaviour
             shell = currentShell.GetComponent<Rigidbody>();
             shell.AddForce(direction * shootForce, ForceMode.Impulse);
         }
-        else
-        {
-            Debug.Log("Turret is not in position");
-        }
     }
 
     void SetTarget()

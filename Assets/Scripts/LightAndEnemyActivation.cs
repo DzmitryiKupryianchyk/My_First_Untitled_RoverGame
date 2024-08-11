@@ -5,17 +5,23 @@ using UnityEngine;
 public class LightAndEnemyActivation : MonoBehaviour
 {
     public GameObject prefab;
-    public Transform player;
+    PlayerControll player;
     public float activationDistance;
 
     private void Start()
     {
+        ///////////////////////////////////////////////////////////////
+        ///
+        ///               This script is not used!                 ///   
+        ///
+        //////////////////////////////////////////////////////////////
+        player = FindObjectOfType<PlayerControll>(gameObject);
         prefab.SetActive(false);
     }
 
     private void Update()
     {
-        float distance = Vector3.Distance(player.position, prefab.transform.position);
+        float distance = Vector3.Distance(player.transform.position, transform.position);
 
         if (distance <= activationDistance)
         {
