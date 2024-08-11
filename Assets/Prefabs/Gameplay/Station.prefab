@@ -2033,11 +2033,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_Lightmapping
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_InnerSpotAngle
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5303957741127338611, guid: c1d65cb559993e042b0e24322ea39f40, type: 3}
       propertyPath: m_CullingMask.m_Bits
