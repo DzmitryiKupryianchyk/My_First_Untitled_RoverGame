@@ -364,11 +364,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5869c5824995345be7bf811f4089de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  searchFrequency: 0.3
+  rotationDirection: {x: 0, y: 250, z: 0}
   detectionRadius: 20
   viewInDarkRadius: 6
   viewWithLightRadius: 10
-  rotationSpeed: 9
-  rotationDirection: {x: 0, y: 250, z: 0}
+  rotationSpeed: 12
   targetLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -385,7 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 5700994704088868750}
-  frequency: 0.4
+  frequency: 0.3
   shootForce: 30
   damageRate: 10
   shellName: bullet

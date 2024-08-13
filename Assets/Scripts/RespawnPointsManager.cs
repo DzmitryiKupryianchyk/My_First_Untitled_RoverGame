@@ -24,7 +24,6 @@ public class RespawnPointsManager : ShellSingleton<RespawnPointsManager>
         }
         currentRespawnPoint = newRespawnPoint;
         currentRespawnPoint.ChangeStatus(true);
-        Debug.Log(currentRespawnPoint.transform.position);
     }
     public Transform GetCurrentRespawnPoint() 
     {

@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  forsageSpeed: 6
+  forsageSpeed: 5
   moveBackwardsSpeed: 1
   interactArea: 3
   turnSpeed: 3

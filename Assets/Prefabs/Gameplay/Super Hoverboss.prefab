@@ -79,7 +79,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.6
-  m_Speed: 2
+  m_Speed: 1.5
   m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 360
@@ -89,8 +89,8 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 1
   m_BaseOffset: 0
-  m_WalkableMask: 7
-  m_ObstacleAvoidanceType: 2
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &430840101328051349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,8 +103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e691eef79ccc2a344ad8c1cead866ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 6
   patrolRadius: 10
+  patrolDelay: 5
+  targetCheckInterval: 0.5
   towerControl: {fileID: 1144441345680599114}
 --- !u!65 &9162168819902431317
 BoxCollider:
@@ -258,10 +259,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117c23b8a5b88e74483af18422ec0a5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  searchFrequency: 0.3
   detectionRadius: 20
   viewInDarkRadius: 6
   viewWithLightRadius: 10
-  rotationSpeed: 7
+  rotationSpeed: 10
   targetLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -279,7 +281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageRate: 50
   clip: {fileID: 9142175850788161631}
-  frequency: 0.85
+  frequency: 0.75
   shootForce: 25
   shellName: bullet
 --- !u!1 &1869909111343188

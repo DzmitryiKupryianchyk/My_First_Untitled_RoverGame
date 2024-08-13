@@ -17,7 +17,12 @@ public class ShellBehaviour : MonoBehaviour
     //float maxDistance = 800.0f;
     string type;
     // Start is called before the first frame update
-    void Start()
+    //void Start()
+    //{
+    //    rb = GetComponent<Rigidbody>();
+    //    firstPosition = gameObject.transform.position;
+    //}
+    void OnEnable()
     {
         rb = GetComponent<Rigidbody>();
         firstPosition = gameObject.transform.position;
@@ -59,7 +64,7 @@ public class ShellBehaviour : MonoBehaviour
         {
             collision.gameObject.GetComponent<HealthManager>().TakeDamage(damageRate); 
         }
-
+        
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         ShellPool.Instance.ReturnBullet(type, gameObject);
