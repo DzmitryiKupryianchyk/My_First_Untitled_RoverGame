@@ -143,5 +143,20 @@ public class PlayerControll : MonoBehaviour
             CharacterController.transform.Rotate(0, direction.x * turnSpeed, 0);
         }
     }
+    void OnApplicationPause(bool pauseStatus)
+    {
+        if (pauseStatus)
+        {
+            Pause();
+        }
+    }
+
+    void OnApplicationFocus(bool hasFocus)
+    {
+        if (!hasFocus)
+        {
+            Pause();
+        }
+    }
 
 }
