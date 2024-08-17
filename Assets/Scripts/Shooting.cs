@@ -14,6 +14,8 @@ public class Shooting : MonoBehaviour
     private float time;
     public string shellName = "bullet";
     Vector3 aimingOffset;
+    public ParticleSystem shotFire;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +45,8 @@ public class Shooting : MonoBehaviour
             currentShell.transform.position = clip.transform.position;
             shell = currentShell.GetComponent<Rigidbody>();
             Vector3 direction = ((target.transform.position + aimingOffset) - clip.transform.position).normalized;
+            shotFire.Play();
+            audioSource.Play();
             shell.AddForce(direction * shootForce, ForceMode.Impulse);
         }
     }
