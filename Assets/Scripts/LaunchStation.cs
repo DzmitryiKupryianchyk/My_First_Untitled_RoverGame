@@ -12,11 +12,13 @@ public class LaunchStation : MonoBehaviour, IResponsible
     public SpaceShuttleBehavior shuttle;
     public ParticleSystem[] particles;
     [SerializeField] MeshRenderer rocket;
+    public AudioSource audioSource;
+    public AudioSource alarm;
     public void Respond(bool state)
     {
         if (TaskControlManager.Instance.IsReadyToLaunch())
         {
-            LoadToShuttle();
+            Launch();
         }
         else return;
     }
@@ -25,16 +27,15 @@ public class LaunchStation : MonoBehaviour, IResponsible
     {
         finishCutScene.SetActive(false);
     }
-    void LoadToShuttle()
-    {
-        Launch();
-    }
+    //void LoadToShuttle()
+    //{
+    //    Launch();
+    //}
     void Launch()
     {
-        foreach (var particle in particles) 
-        {
-            particle.Play();
-        }
+        //alarm.Play();
+        audioSource.Play();
+        Invoke(nameof(StartPartickle), 1f);
         StartCoroutine(FinalCountDown(launchDelay));
         finishCutScene.SetActive(true);
         player.SetActive(false);
@@ -54,6 +55,13 @@ public class LaunchStation : MonoBehaviour, IResponsible
         Invoke(nameof(DimScreen), 33f);
 
         Invoke(nameof(EndGame), 36f);
+    }
+    void StartPartickle() 
+    {
+        foreach (var particle in particles)
+        {
+            particle.Play();
+        }
     }
 
 }
