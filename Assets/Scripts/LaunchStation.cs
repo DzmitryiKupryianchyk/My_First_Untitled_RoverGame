@@ -27,13 +27,8 @@ public class LaunchStation : MonoBehaviour, IResponsible
     {
         finishCutScene.SetActive(false);
     }
-    //void LoadToShuttle()
-    //{
-    //    Launch();
-    //}
     void Launch()
     {
-        //alarm.Play();
         audioSource.Play();
         Invoke(nameof(StartPartickle), 1f);
         StartCoroutine(FinalCountDown(launchDelay));

@@ -92,8 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e691eef79ccc2a344ad8c1cead866ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolRadius: 10
-  patrolDelay: 5
+  patrolRadius: 5
+  patrolDelay: 2
   targetCheckInterval: 0.5
   towerControl: {fileID: 5073570674476067041}
 --- !u!82 &2832348673462841827
