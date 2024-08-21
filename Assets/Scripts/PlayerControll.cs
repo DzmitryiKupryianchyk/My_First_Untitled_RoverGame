@@ -27,8 +27,6 @@ public class PlayerControll : MonoBehaviour
         inputManager = new InputManager();
         inputManager.CharacterMap.Interaction.performed += Interaction_performed;
         inputManager.CharacterMap.Light.performed += Light_performed;
-        //inputManager.CharacterMap.View.performed += View_performed;
-        //inputManager.CharacterMap.Shoot.performed += Shoot_performed;
         inputManager.CharacterMap.Pause.performed += Pause_performed;
         inputManager.Enable();
     }
@@ -39,8 +37,6 @@ public class PlayerControll : MonoBehaviour
     {
         inputManager.CharacterMap.Interaction.performed -= Interaction_performed;
         inputManager.CharacterMap.Light.performed -= Light_performed;
-        //inputManager.CharacterMap.View.performed -= View_performed;
-        //inputManager.CharacterMap.Shoot.performed -= Shoot_performed;
         inputManager.CharacterMap.Pause.performed -= Pause_performed;
         inputManager.Disable();
     }
@@ -61,14 +57,6 @@ public class PlayerControll : MonoBehaviour
             Rotation(direction);
         }
     }
-
-    //private void Shoot_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
-    //{
-    //}
-
-    //private void View_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
-    //{
-    //}
 
     private void Light_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {

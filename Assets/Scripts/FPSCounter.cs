@@ -34,14 +34,7 @@ public class FPSCounter : MonoBehaviour
 
     void UpdateFPSDisplay(float fps, float ms)
     {
-        //if (fps < 30)
-        //    fpsText.color = Color.red;
-        //else if (fps < 50)
-        //    fpsText.color = Color.yellow;
-        //else
-        //    fpsText.color = Color.green;
-
-        //fpsText.text = $"FPS: {fps:F1}";
+       
         Color targetColor;
         if (fps < 30)
             targetColor = Color.red;
@@ -56,8 +49,4 @@ public class FPSCounter : MonoBehaviour
         msText.text = $"CPU: {ms:F1} ms";
     }
 
-    void UpdateMSDisplay(float ms)
-    {
-        //msText.text = $"CPU: {ms:F1} ms";
-    }
 }

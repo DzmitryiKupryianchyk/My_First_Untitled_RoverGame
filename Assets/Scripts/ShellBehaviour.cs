@@ -14,14 +14,8 @@ public class ShellBehaviour : MonoBehaviour
     public float explosionForce;
     public float explosionRadius;
     Vector3 firstPosition;
-    //float maxDistance = 800.0f;
     string type;
-    // Start is called before the first frame update
-    //void Start()
-    //{
-    //    rb = GetComponent<Rigidbody>();
-    //    firstPosition = gameObject.transform.position;
-    //}
+    
     void OnEnable()
     {
         rb = GetComponent<Rigidbody>();
@@ -33,13 +27,9 @@ public class ShellBehaviour : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        
-        //MainAudioManager.Instance.transform.position = transform.position;
         if (isExplosive)
         {
             Vector3 explosionPosition = transform.position;
- 
-            //MainAudioManager.Instance.PlayExplosionSound();
             Collider[] colliders = Physics.OverlapSphere(explosionPosition, explosionRadius);
             foreach (Collider hit in colliders)
             {
@@ -53,7 +43,6 @@ public class ShellBehaviour : MonoBehaviour
         else 
         {
             
-            //MainAudioManager.Instance.PlayHitSound();
         }
         if (ShellCollision != null)
         {
@@ -74,14 +63,4 @@ public class ShellBehaviour : MonoBehaviour
     {
         this.damageRate = damageRate;
     }
-    
-    //private void DestroyAnyway()
-    //{
-    //    if (gameObject != null && Vector3.Distance(firstPosition, gameObject.transform.position) > maxDistance)
-    //    {
-    //        rb.velocity = Vector3.zero;
-    //        rb.angularVelocity = Vector3.zero;
-    //        ShellPool.Instance.ReturnBullet(type, gameObject);
-    //    }
-    //}
 }
