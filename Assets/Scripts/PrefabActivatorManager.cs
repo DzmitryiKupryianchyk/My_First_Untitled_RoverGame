@@ -7,26 +7,32 @@ public class PrefabActivatorManager : MonoBehaviour
     public GameObject[] objects; 
     public Transform player;
     public float activationRadius;
+    public float interval;
+    private float timeSinceLastUpdate;
 
     void Update()
     {
-        foreach (GameObject obj in objects)
+        timeSinceLastUpdate += Time.deltaTime;
+        if (timeSinceLastUpdate >= interval)
         {
-            if (obj == null) continue;
+            foreach (GameObject obj in objects)
+            {
+                if (obj == null) continue;
 
-            float distanceToPlayer = Vector3.Distance(player.position, obj.transform.position);
-            if (distanceToPlayer <= activationRadius)
-            {
-                if (!obj.activeInHierarchy)
+                float distanceToPlayer = Vector3.Distance(player.position, obj.transform.position);
+                if (distanceToPlayer <= activationRadius)
                 {
-                    obj.SetActive(true);
+                    if (!obj.activeInHierarchy)
+                    {
+                        obj.SetActive(true);
+                    }
                 }
-            }
-            else
-            {
-                if (obj.activeInHierarchy)
+                else
                 {
-                    obj.SetActive(false);
+                    if (obj.activeInHierarchy)
+                    {
+                        obj.SetActive(false);
+                    }
                 }
             }
         }

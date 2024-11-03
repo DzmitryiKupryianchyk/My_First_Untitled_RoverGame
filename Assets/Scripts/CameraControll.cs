@@ -8,12 +8,10 @@ public class CameraControll : MonoBehaviour
     public Vector3 offset;
     public float smoothTime = 0.3f;
     private Vector3 velocity = Vector3.zero;
-    public Camera minimapCamera;
 
-    void Start()
+    private void Start()
     {
-        int lightingLayer = LayerMask.NameToLayer("Light");
-        minimapCamera.cullingMask &= ~(1 << lightingLayer);
+        Application.targetFrameRate = 60;
     }
 
     void LateUpdate()
